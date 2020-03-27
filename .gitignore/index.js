@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 var prefix = "<";
 
-client.login("NjkzMDM4MjAwMzQzNzU2ODAw.Xn3Q7w.P-tV3IAHugpHC9QwLC_coQukANY");
+client.login(process.env.TOKEN);
 
 
 client.on("message", message =>{
